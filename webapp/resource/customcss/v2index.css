@@ -1,0 +1,118 @@
+body {
+  width: 100%;
+  height: 100%;;
+  color: white;
+}
+html {
+  width: 100%;
+  height: 100%;
+}
+.navbar-inverse .navbar-nav>li>a{
+    color: #FBC02D;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+    background-color: #1B5E20;
+    color: #FBC02D !important;
+}
+.active a {
+    background-color: #1B5E20 !important;
+    color: #FBC02D !important;
+}
+.navbar-inverse {
+    background-color: #2E7D32;
+    border-color: #FBC02D;
+}
+#dept{
+  background-color:#2E7D32;
+  width:100%;
+  border-bottom:1px solid #FBC02D;
+}
+.dept-logo-size{
+  width:130px;
+  height:182px;
+}
+.content-section {
+  padding-top: 50px;
+}
+.wrapper1{
+  width:33%;
+  float:left;
+}
+.wrapper1 img{
+  weight:200px;
+  height:200px;
+}
+.wrapper1 h4{
+  color:black;
+}
+.wrapper1 p{
+  color:black;
+  text-transform:uppercase;
+}
+.wrapper2{
+  width:50%;
+  float:left;
+}
+.wrapper2 img{
+  weight:200px;
+  height:200px;
+}
+.wrapper2 h4{
+  color:black;
+}
+.wrapper2 p{
+  color:black;
+  text-transform:uppercase;
+}
+#contact{
+  background-color:#2E7D32;
+  width:100%;
+  border-top:1px solid #FBC02D;
+  border-bottom:1px solid #FBC02D;
+}
+#contact h1{
+  color:#FBC02D;
+}
+.form-bottom form button.btn{
+  width:100%;
+  color:#FBC02D;
+  background-color:#2E7D32;
+}
+footer{
+  margin-top:10px;
+}
+.textCon{
+  text-align:left;
+  color:#FBC02D;
+}
+.wrapperText{
+  float:left;
+  width:20%;
+  text-align:left;
+}
+.wrapperText h4{
+  color:#FBC02D;
+}
+.wrapperFooter h4{
+  color:#2E7D32;
+  text-align:left;
+}
+.wrapperFooter p{
+  color:black;
+  margin:0;
+  text-align:left;
+  font-size:12pt;
+  line-height:20px;
+}
+.social{
+  width:50px;
+  height:50px;
+}
+.social:hover{
+  cursor: pointer;
+}
+
+.schools:hover{
+  cursor: pointer;
+  color: #AFB428;
+}

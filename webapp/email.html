@@ -1,0 +1,229 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta charset="utf-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>USC FW Admin Panel</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- MetisMenu CSS -->
+    <link href="bower_components/metisMenu/dist/metisMenu.min.css" rel="stylesheet">
+
+    <!-- Timeline CSS -->
+    <link href="dist/css/timeline.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="dist/css/sb-admin-2.css" rel="stylesheet">
+
+    <!-- Morris Charts CSS -->
+    <link href="bower_components/morrisjs/morris.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+</head>
+
+<body>
+
+		 <div id="wrapper">
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0; background-color:#2E7D32;">
+            <div class="navbar-header">
+                </button>
+                 <a class="navbar-brand" href="users.php" style="color:#FFCC33;">Admin Panel</a>
+               
+            </div>
+            <!-- /.navbar-header -->
+
+            <ul class="nav navbar-top-links navbar-right">
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <i class="fa fa-user fa-fw" style="color:#FFCC33;"></i>  <i class="fa fa-caret-down" style="color:#FFCC33;"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-user">
+                        <li><a href="settings.html"><i class="fa fa-gear fa-fw"></i> Settings</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li><a href="indexv2.html"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+                        </li>
+                    </ul>
+                    <!-- /.dropdown-user -->
+                </li>
+                <!-- /.dropdown -->
+            </ul>
+            <!-- /.navbar-top-links -->
+
+    <div class="navbar-default sidebar" role="navigation">
+                <div class="sidebar-nav navbar-collapse">
+                    <ul class="nav" id="side-menu">
+                        
+                        <li>
+                            <a href="users.php"><i class="fa fa-users fa-fw"></i> User Management</a>
+                        </li>
+
+                        <li>
+                            <a href="email.html"><i class="fa fa-envelope-o fa-fw"></i> Emails</a>
+                        </li>
+						 <li>
+                            <a href="reports.php"><i class="fa fa-warning fa-fw" style="color:red;"></i>Reported Posts</a>
+                        </li> 
+     
+                    </ul>
+                </div>
+                <!-- /.sidebar-collapse -->
+            </div>
+            <!-- /.navbar-static-side -->
+        </nav>
+
+        <div id="page-wrapper">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="page-header">Emails</h1>
+                </div>
+
+                <!-- /.col-lg-12 -->
+            </div>
+            <!-- /.row -->
+                <div class="row">
+                <div class="col-lg-12">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                           View Emails
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <div class="table-responsive">
+                                <table class="table table-hover">
+                                    <thead>
+                                        <tr>
+                                            
+                                            <th>Name</th>
+                                            <th>Message</th>
+                                            <th>Time</th>
+                                            <th>Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                            <td>Mark Otto</td>
+                                            <td><span class"subject">I would like to refer..</span> <small class="text-muted">- I just reviewed the last...</td>
+                                            <td>21:23</td>
+                                            
+                                            <td> 
+
+                                               <button type="button" class="btn btn-primary btn-circle"><i class="fa fa-envelope"></i></button>  
+                                               <button type="button" class="btn btn-warning btn-circle"><i class="fa fa-times"></i>  </button> 
+                                               
+
+                                          </td>
+                               
+                                     </tr>
+
+                                        <tr>
+                                            
+                                            <td>Jacob Thornton</td>
+                                            <td><span class"subject">I just want to know..</span> <small class="text-muted">- I just reviewed the last...</td>
+                                            <td>21:24</td>
+
+                                            <td>
+                                                
+                                                <button type="button" class="btn btn-primary btn-circle"><i class="fa fa-envelope"></i></button>
+                                                <button type="button" class="btn btn-warning btn-circle"><i class="fa fa-times"></i> </button> 
+
+                           </td>
+                                        </tr>
+
+                                        <tr>
+                                           
+                                            <td>Larry The Bird</td>
+                                            <td><span class"subject">Is it possible</span> <small class="text-muted">- I just reviewed the last...</td>
+                                            <td>21:25</td>
+
+                                            <td>
+
+                                                
+                                                <button type="button" class="btn btn-primary btn-circle"><i class="fa fa-envelope"></i></button>
+                                                <button type="button" class="btn btn-warning btn-circle"><i class="fa fa-times"></i></button>  
+
+                          </td>
+                                        </tr>
+
+                                        <tr>
+                                           
+                                            <td>Vanex Vanvan</td>
+                                             <td><span class"subject">Good Day..</span> <small class="text-muted">- I just reviewed the last...</td>
+                                             <td>21:26</td>
+
+                                            <td>
+
+                                                
+                                                <button type="button" class="btn btn-primary btn-circle"><i class="fa fa-envelope"></i></button> 
+                                                <button type="button" class="btn btn-warning btn-circle"><i class="fa fa-times"></i></button>
+
+
+                                            </td>
+
+                                        </tr>
+                                        <tr>
+                                        
+                                            <td>John Meow</td>
+                                            <td><span class"subject">Babe, I love you</span> <small class="text-muted">- I just reviewed the last...</td>
+                                            <td>21:27</td>
+
+                                            <td>
+
+                                                
+                                                <button type="button" class="btn btn-primary btn-circle"><i class="fa fa-envelope"></i></button>
+                                                <button type="button" class="btn btn-warning btn-circle"><i class="fa fa-times"></i></button> 
+
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!-- /.table-responsive -->
+                        </div>
+                        <!-- /.panel-body -->
+                    </div>
+                    <!-- /.panel -->
+                </div>
+                <!-- /.col-lg-6 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /#page-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <!-- Metis Menu Plugin JavaScript -->
+    <script src="bower_components/metisMenu/dist/metisMenu.min.js"></script>
+
+    <!-- Morris Charts JavaScript -->
+    <script src="bower_components/raphael/raphael-min.js"></script>
+    <script src="bower_components/morrisjs/morris.min.js"></script>
+    <script src="js/morris-data.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="dist/js/sb-admin-2.js"></script>
+</body>
+</html>

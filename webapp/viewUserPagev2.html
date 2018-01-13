@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+    	<title>USC Freedom Wall</title>
+    	<!--CSS-->
+    	<link rel="stylesheet" type="text/css" href="resource/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="resource/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="resource/customcss/userPage.css">
+        <link rel="icon" type="image/png" href="resource/images/logo2.png">
+	</head>
+	<body>
+		<!--NAV-->
+		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-5">
+						<ul class="nav navbar-nav">
+							<li><a href="#"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+					        <li><a href="#message" data-toggle="modal"><span class="glyphicon glyphicon-envelope"></span> Message</a></li>
+						</ul>
+					</div>
+					<div class="col-sm-3">
+						<ul class="nav navbar-nav">
+							<li><img src="resource/images/logo2.png" id="logo-nav"></li>
+						</ul>
+					</div>
+					<div class="col-sm-4">
+						<ul class="nav navbar-nav navbar-right">
+							<li>
+								<div class="inner-addon right-addon">
+									<i class="glyphicon glyphicon-search"></i>
+									<input type="text" class="form-control" placeholder=" Search ID#" name="tfSearch">
+								</div>
+			        </li>
+						  <li class="dropdown">
+			          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="resource/images/Amit.png" class="img-circle" id="userPic"></span> John <span class="caret"></span></a>
+			          <ul class="dropdown-menu">
+			          <li>
+			          	<div class="navbar-content">
+			          		<div class="row">
+			          			<div class="col-md-5">
+			          				<img src="resource/images/amit.png" alt="" class="img-circle" style="heigth:100px;width:100px;">
+												<p class="text-center small"><a href="#">Change Photo</a></p>
+			          			</div>
+											<div class="col-md-7">
+												<span><strong>John Mark Amit</strong></span>
+												<p class="text-muted small">12101101</p>
+												<div class="divider"></div>
+												<a href="#" class="btn btn-success btn-sm">View Profile</a>
+											</div>
+			          		</div>
+			          	</div>
+									<div class="navbar-footer">
+										<div class="navbar-footer-content">
+											<div class="row">
+												<div class="col-md-6">
+													<a href="#changePass" data-toggle="modal" class="btn btn-success btn-sm">Change Password</a>
+												</div>
+												<div class="col-md-6">
+													<a href="#" class="btn btn-success btn-sm pull-right">Sign Out</a>
+												</div>
+											</div>
+										</div>
+									</div>
+			          </li>
+			          </ul>
+			        </li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<!--END OF NAV-->
+		<!--Content-->
+		<div class="container" style="margin-top:50px;">
+			<div class="row profile">
+				<div class="col-sm-3">
+					<div class="profile-sidebar">
+						<div class="profile-userpic" >
+    						<a href="#viewPic" data-toggle="modal"><img src="resource/images/Alec.jpg" class="img-responsive img-circle" alt=""></a>
+    					</div>
+    					<div class="profile-usertitle">
+    						<div class="profile-usertitle-name">
+                	12105501<br>
+    							Alec Melchor
+    						</div>
+    						<div class="profile-usertitle-course">
+    							BSICT
+	    					</div>
+	    				</div>
+              <div class="profile-userbuttons">
+                <a href="#inbox" data-toggle="modal" class="btn btn-success btn-sm"><i class="fa fa-envelope-o"></i> Message</span></a>
+      				</div>
+	    				<div class="profile-usermenu">
+	    					<ul class="nav">
+	    						<li>
+	    							<a href="#rules" data-toggle="modal">
+	    							<i class="glyphicon glyphicon-flag"></i>
+	    							Rules </a>
+	    						</li>
+	    					</ul>
+    					</div>
+
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<!--Status-->
+					<div class="status-content">
+						<form action="">
+							<textarea name="tfArea" rows="4" cols="40" id="status" placeholder="Share what you feel..."></textarea>
+							<ul>
+								<li>
+									<div class="checkbox pull-left">
+										 <label><input type="checkbox" value="">Post Anonymously</label>
+									</div>
+							 </li>
+							 <li><a title="" data-hover="tooltip" data-placement="bottom" data-original-title="Add Video"><i class="fa fa-video-camera"></i></a></li>
+							 <li><a title="" data-hover="tooltip" data-placement="bottom" data-original-title="Add Picture"><i class="fa fa-picture-o"></i></a></li>
+							</ul>
+							<button type="submit" class="btn btn-success pull-right"><i class="glyphicon glyphicon-pencil"></i> Share</button>
+						</form>
+					</div>
+					<!--End of Status-->
+					<!--Wells-->
+					<div class="well">
+						<div class="media">
+							<a class="pull-left" href="#"><img class="media-object" src="resource/images/kristopher.jpg"></a>
+							<div class="media-body">
+								<a href="#"><strong>Kristopher Cabahug</strong></a><span class="time"> 11hr</span>
+								<p>I love my life.</p>
+							</div>
+							<ul class="list-inline list-unstyled interact-sec">
+									<li><a href="#viewComments" data-toggle="modal" data-hover="tooltip" data-placement="bottom" data-original-title="View Comments"><span class="fa fa-comments"></span></a></li>
+									<li>|</li>
+									<li><a href="#report" data-toggle="modal" data-hover="tooltip" data-placement="bottom" data-original-title="Report"><span class="fa fa-exclamation-triangle"></span></a></li>
+							</ul>
+						</div>
+					</div>
+					<!--End of Wells -->
+					<!--Wells-->
+					<div class="well">
+						<div class="media">
+							<a class="pull-left" href="#"><img class="media-object" src="resource/images/alec2.jpg"></a>
+							<div class="media-body">
+								<a href="#"><strong>Alec Melchor</strong></a><span class="time"> 12hr</span>
+								<p>Chixboy man ko.</p>
+							</div>
+							<ul class="list-inline list-unstyled interact-sec">
+									<li><a href="#" data-toggle="modal" rel="tooltip" data-placement="bottom" data-original-title="View Comments"><span class="fa fa-comments"></span></a></li>
+									<li>|</li>
+									<li><a href="#" data-toggle="modal" rel="tooltip" data-placement="bottom" data-original-title="Report"><span class="fa fa-exclamation-triangle"></span></a></li>
+							</ul>
+						</div>
+					</div>
+					<!--End of Wells -->
+					<!--Wells-->
+					<div class="well">
+						<div class="media">
+							<a class="pull-left" href="#"><img class="media-object" src="resource/images/jm.jpg"></a>
+							<div class="media-body">
+								<a href="#"><strong>JM Gula</strong></a><span class="time"> 12hr</span>
+								<p>Gwapo ko.</p>
+							</div>
+							<ul class="list-inline list-unstyled interact-sec">
+									<li><a href="#" data-toggle="tooltip" data-placement="bottom" data-original-title="View Comments"><span class="fa fa-comments"></span></a></li>
+									<li>|</li>
+									<li><a href="#" data-toggle="tooltip" data-placement="bottom" data-original-title="Report"><span class="fa fa-exclamation-triangle"></span></a></li>
+							</ul>
+						</div>
+					</div>
+					<!--End of Wells -->
+					<!--Wells-->
+					<div class="well">
+						<div class="media">
+							<a class="pull-left" href="#"><img class="media-object" src="resource/images/Zam.png"></a>
+							<div class="media-body">
+								<a href="#"><strong>Zammy Serato</strong></a><span class="time"> 13hr</span>
+								<p>Nindota sa akong adlaw karon :).</p>
+							</div>
+							<ul class="list-inline list-unstyled interact-sec">
+									<li><a href="#" data-toggle="tooltip" data-placement="bottom" data-original-title="View Comments"><span class="fa fa-comments"></span></a></li>
+									<li>|</li>
+									<li><a href="#" data-toggle="tooltip" data-placement="bottom" data-original-title="Report"><span class="fa fa-exclamation-triangle"></span></a></li>
+							</ul>
+						</div>
+					</div>
+					<!--End of Wells -->
+				</div>
+
+				<div class="col-sm-3">
+							<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ftodayscarolinian%2F%3Ffref%3Dts&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="250" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+							<iframe class="marg" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fwarriorsturf%2F%3Ffref%3Dts&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="300" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+				</div>
+			</div>
+		</div>
+		<!--END OF CONTENT-->
+		<!--MODALS-->
+		<div class="modal fade" id="message" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+						<div class="modal-header"><h4><b>View Messages</b></h4></div>
+						<div class="modal-body">
+							<div class="list-group chat-user-list">
+								<a href="#inbox" data-toggle="modal" class="list-group-item">
+									<div class="media-left" ><div><img src="resource/images/jm.png" class="img-circle media-object" alt=""></div></div>
+									<div class="media-body">
+                      <div class="media-heading">
+                          <b>JM Gula</b>
+                          <p><span><i class="fa fa-reply"></i></span> Hahahaha</p>
+                      </div>
+                  </div>
+								</a>
+								<a href="#" class="list-group-item">
+									<div class="media-left" ><div><img src="resource/images/Alec.jpg" class="img-circle media-object" alt=""></div></div>
+									<div class="media-body">
+                      <div class="media-heading">
+                          <b>Alec Melchor</b>
+                          <p><span><i class="fa fa-reply"></i></span> ULOL</p>
+                      </div>
+                  </div>
+								</a>
+							</div>
+						</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal" id="viewPic" role="dialog">
+      <div class="modal-dialog">>
+          <div class="modal-content mView" id="viewPic2">
+            <img src="resource/images/alec.jpg" class="center-block">
+          </div>
+      </div>
+    </div>
+
+		<div class="modal" id="viewComments" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header"><h4><b>View Comments</b></h4></div>
+					<div class="modal-body" style="text-align:center;"><h1>SOME COMMENTS HERE</h1></div>
+					<div class="modal-footer">
+						<form action="" class="form-inline">
+							<input type="text" class="pull-left" placeholder="Write a comment..." style="width:80%;padding:5px;">
+							<button type="Submit" class="btn btn-success">Comment</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal" id="report" role="dialog">
+			<div class="modal-dialog modal-sm">
+				<div class="modal-content">
+					<div class="modal-body" style="text-align:center;"><h4>Report this post?</h4></div>
+					<div class="modal-footer">
+						<button type="submit" class="btn btn-success">OK</button>
+						<button type="button" class="btn btn-success" data-dismiss="modal">Cancel</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal" id="changePass" role="dialog">
+			<div class="modal-dialog modal-sm">
+				<div class="modal-content">
+					<div class="modal-header"><h4><b>Change Password</b></h4></div>
+					<div class="modal-body" style="padding:10px;">
+						<form action="">
+							<div class="form-group form-inline">
+								<label for="pwd">Old Password:</label>
+								<input type="password" id="pwd" class="form-control">
+							</div>
+							<div class="form-group form-inline">
+								<label for="pwd">New Password:</label>
+								<input type="password" id="pwd" class="form-control">
+							</div>
+							<div class="form-group form-inline">
+								<label for="pwd">Confirm New Password:</label>
+								<input type="password" id="pwd" class="form-control">
+							</div>
+							<button type="button" class="btn btn-success btn-sm">Change Password</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal" id="rules" role="dialog">
+			<div class="modal-dialog modal-sm">
+				<div class="modal-content">
+					<div class="modal-header"><h4><b>Rules!</b></h4></div>
+					<div class="modal-body">
+						<ol>
+							<li>No spamming.</li>
+							<li>No lewd posts.</li>
+							<li>No bullying.</li>
+						</ol>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal" id="inbox" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<div class="row">
+							<div class="col-sm-4">
+								<button class="btn btn-link backMsg" data-dismiss="modal"><i class="fa fa-chevron-left fa-2x pull-left"></i>Back</button>
+							</div>
+							<div class="col-sm-6">
+									<span><img src="resource/images/alec.jpg" class="img-circle msgPic" alt="..."> <strong>Alec Melchor</strong></span>
+							</div>
+						</div>
+					</div>
+					<div class="modal-body">
+						<h1 style="text-align:center;">SOME MESSAGE HERE</h1>
+						<h1 style="text-align:center;">SOME MESSAGE HERE</h1>
+						<h1 style="text-align:center;">SOME MESSAGE HERE</h1>
+					</div>
+					<div class="modal-footer">
+						<form action="" class="form-inline">
+							<input type="text" class="pull-left" placeholder="Write a message..." style="width:85%;padding:5px;">
+							<button type="Submit" class="btn btn-success">Send</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- END OF MODALS-->
+		<!--JS-->
+		<script src="resource/js/jquery-3.1.0.min.js"></script>
+		<script src="resource/bootstrap/js/bootstrap.min.js"></script>
+		<script>
+      $(document).ready(function(){
+        $("[data-hover='tooltip']").tooltip();
+      });
+    </script>
+	</body>
+</html>
